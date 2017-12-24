@@ -27,13 +27,13 @@
             </div>; }
             });
     If we paste this in the JSX compiler we won't see any errors and, instead, we will see the compiled React API code as shown below:
-       ```
-         var HelloMessage = React.createClass({displayName: "HelloMessage",
-             render: function() {
-               return React.createElement("div", null, " // works",
-                   React.createElement("div", null, "Hello React"),
-                   React.createElement("div", null, "How are you?")
-         ); }
-        });
-       ```
-      Solution: Wrap root functions in parentheses 
+    ```
+       var HelloMessage = React.createClass({displayName: "HelloMessage",
+           render: function() {
+             return React.createElement("div", null, " // works",
+                 React.createElement("div", null, "Hello React"),
+                 React.createElement("div", null, "How are you?")
+       ); }
+      });
+    ```
+      Solution: Wrap root functions in parentheses
