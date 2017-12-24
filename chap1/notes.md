@@ -1,5 +1,7 @@
 # Chapter 1 Notes
 
+## Introduction to React
+
 ## Decompiling JSX:
 
 - Tool: [Babel](babeljs.io/repl)
@@ -45,4 +47,4 @@
 - Prop types
 - Default prop
 - State
-- Dynamic states 
+- Dynamic states

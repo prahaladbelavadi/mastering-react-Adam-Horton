@@ -1,6 +1,7 @@
 # Chapter 1 Index
-
 [Notes](./notes)
+
+## Introduction to React
 
 ### Links:
 - [Hello React](./hello-react)
